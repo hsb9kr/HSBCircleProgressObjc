@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HSBCircleProgressObjc_Example' do
+  pod 'HSBCircleProgressObjc', :path => '../'
+
+  target 'HSBCircleProgressObjc_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
