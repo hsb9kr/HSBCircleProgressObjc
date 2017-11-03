@@ -1,0 +1,16 @@
+PODS:
+  - HSBCircleProgressObjc (0.1.0)
+
+DEPENDENCIES:
+  - HSBCircleProgressObjc (from `../`)
+
+EXTERNAL SOURCES:
+  HSBCircleProgressObjc:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HSBCircleProgressObjc: f35adaa028865b541400230599c44609c6f4ffb8
+
+PODFILE CHECKSUM: af3e949937b9a86180aee6b56328ed9d6508e7e5
+
+COCOAPODS: 1.2.0

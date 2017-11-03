@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E251329D2677AA8BB2920402C2DF2F5 /* Pods-HSBCircleProgressObjc_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA134D30788A7E55E1F8BBB7999D77BB /* Pods-HSBCircleProgressObjc_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F8C9BE5E79339502AE36B1BED932C4C /* Pods-HSBCircleProgressObjc_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB69926D6B4CF85EA3116312350CC6D /* Pods-HSBCircleProgressObjc_Tests-dummy.m */; };
+		48FA55C20CFC0EC2E7BCBDAA81FC7986 /* HSBCircleProgressObjc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7EBA77342765B560059023033C7B7F6 /* HSBCircleProgressObjc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C78DF3677F4285011FC7F0391039387 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		569638B7FD1C2A86DC8D0F3852D49581 /* HSBCircleProgressObjc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF6A614D5E68F1D3D72EE275883DFF1 /* HSBCircleProgressObjc-dummy.m */; };
+		7931B77F0EDA17FC81E6F2AAB2D1F6D7 /* Pods-HSBCircleProgressObjc_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F235F97436119F357F496B348957729 /* Pods-HSBCircleProgressObjc_Example-dummy.m */; };
+		9E90ED413AAD4C0C142806AA21D1CAC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A08A774E72BFE390E2D5AEFE4A142FA2 /* Pods-HSBCircleProgressObjc_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51CA192A873F1724B18E4A9E7B93066B /* Pods-HSBCircleProgressObjc_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8DCB553421DBCF2DC7369AAE3E92DF1 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2A4A229FA72924817AAFA74100369 /* ReplaceMe.m */; };
+		FAE7E188D7A4EB11F9E795A9679E312C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		593DD165C8383444BF0610BD5AB80D8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF02949DDA996F5E5EC8076132030180;
+			remoteInfo = HSBCircleProgressObjc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		019C9F601DA963892F9FD7FFA85EE4EF /* Pods-HSBCircleProgressObjc_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HSBCircleProgressObjc_Example-resources.sh"; sourceTree = "<group>"; };
+		0611D0F242D70373699530B473D57A03 /* Pods-HSBCircleProgressObjc_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HSBCircleProgressObjc_Tests.modulemap"; sourceTree = "<group>"; };
+		2C782DB9E12C4807B24B7133CBD3A666 /* Pods-HSBCircleProgressObjc_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HSBCircleProgressObjc_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2D6F7D53678647525DE0E20D802D112A /* Pods-HSBCircleProgressObjc_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSBCircleProgressObjc_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		30AF029737E893FE811520E6B6AAA003 /* HSBCircleProgressObjc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HSBCircleProgressObjc.xcconfig; sourceTree = "<group>"; };
+		3274E1FBC9EBDE3222A0A43E78927115 /* Pods-HSBCircleProgressObjc_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HSBCircleProgressObjc_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		42B84A13BDA27208F53597D1E0F6161C /* Pods-HSBCircleProgressObjc_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HSBCircleProgressObjc_Example.modulemap"; sourceTree = "<group>"; };
+		51CA192A873F1724B18E4A9E7B93066B /* Pods-HSBCircleProgressObjc_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HSBCircleProgressObjc_Example-umbrella.h"; sourceTree = "<group>"; };
+		5B7D7468154498A756361BBFFF9838B9 /* Pods-HSBCircleProgressObjc_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSBCircleProgressObjc_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5C435783D3E27CCBF3FF613B79D7A9DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D981F4A79D3893A8865BCCA82164E39 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64F4C2F1486D47ED88FE849A8BF989D9 /* Pods-HSBCircleProgressObjc_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HSBCircleProgressObjc_Tests-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		668F0C7F22F77EF0640D1B5E627ECC79 /* Pods-HSBCircleProgressObjc_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HSBCircleProgressObjc_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6A24E89B3B292714EFB366B36C43A221 /* HSBCircleProgressObjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HSBCircleProgressObjc.framework; path = HSBCircleProgressObjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F235F97436119F357F496B348957729 /* Pods-HSBCircleProgressObjc_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HSBCircleProgressObjc_Example-dummy.m"; sourceTree = "<group>"; };
+		75566611C906C2416B0DBAA4F2B22B60 /* Pods-HSBCircleProgressObjc_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HSBCircleProgressObjc_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8CA2A4A229FA72924817AAFA74100369 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		8F405F44DDD83643ED4C037387DA4690 /* Pods-HSBCircleProgressObjc_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSBCircleProgressObjc_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99EC7F96E2325F9F777561121F338446 /* Pods-HSBCircleProgressObjc_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HSBCircleProgressObjc_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A0DCEEC3679825C54CE8362C588C1153 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB69926D6B4CF85EA3116312350CC6D /* Pods-HSBCircleProgressObjc_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HSBCircleProgressObjc_Tests-dummy.m"; sourceTree = "<group>"; };
+		ADF8CA368C345B81839AC98A064BE583 /* HSBCircleProgressObjc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HSBCircleProgressObjc-prefix.pch"; sourceTree = "<group>"; };
+		B51F8FA1CF7AD0EB550D052A94B26295 /* Pods-HSBCircleProgressObjc_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSBCircleProgressObjc_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B8F85903291A8C0201D1ED581092692E /* Pods-HSBCircleProgressObjc_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HSBCircleProgressObjc_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA134D30788A7E55E1F8BBB7999D77BB /* Pods-HSBCircleProgressObjc_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HSBCircleProgressObjc_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C7EBA77342765B560059023033C7B7F6 /* HSBCircleProgressObjc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HSBCircleProgressObjc-umbrella.h"; sourceTree = "<group>"; };
+		CFD1BD9DD8BE16BB81A7DA7432170A1B /* Pods_HSBCircleProgressObjc_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HSBCircleProgressObjc_Tests.framework; path = "Pods-HSBCircleProgressObjc_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA05E5BDD031F386CB76A2ECE8491D5A /* Pods_HSBCircleProgressObjc_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HSBCircleProgressObjc_Example.framework; path = "Pods-HSBCircleProgressObjc_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E50A946398B6FEEB6E25BF6B85D483B2 /* HSBCircleProgressObjc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HSBCircleProgressObjc.modulemap; sourceTree = "<group>"; };
+		EFF6A614D5E68F1D3D72EE275883DFF1 /* HSBCircleProgressObjc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HSBCircleProgressObjc-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22531B300AD1DC02BBE28FC4C69DB13D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE7E188D7A4EB11F9E795A9679E312C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419592CC54C95C8B88C5A1E635068E38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C78DF3677F4285011FC7F0391039387 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E173DEE221B0F06335B3108C6860EE50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E90ED413AAD4C0C142806AA21D1CAC0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		001F7A2EAA93EC8B0800D6C28B039460 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E50A946398B6FEEB6E25BF6B85D483B2 /* HSBCircleProgressObjc.modulemap */,
+				30AF029737E893FE811520E6B6AAA003 /* HSBCircleProgressObjc.xcconfig */,
+				EFF6A614D5E68F1D3D72EE275883DFF1 /* HSBCircleProgressObjc-dummy.m */,
+				ADF8CA368C345B81839AC98A064BE583 /* HSBCircleProgressObjc-prefix.pch */,
+				C7EBA77342765B560059023033C7B7F6 /* HSBCircleProgressObjc-umbrella.h */,
+				A0DCEEC3679825C54CE8362C588C1153 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HSBCircleProgressObjc";
+			sourceTree = "<group>";
+		};
+		2D07F9BC619D26B6F9B3DFBB065665A1 /* HSBCircleProgressObjc */ = {
+			isa = PBXGroup;
+			children = (
+				EFE175BC91811F3DD77B08C22AB679AE /* HSBCircleProgressObjc */,
+				001F7A2EAA93EC8B0800D6C28B039460 /* Support Files */,
+			);
+			name = HSBCircleProgressObjc;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		34200C77E511092FAFE7D97F6EBAE978 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D07F9BC619D26B6F9B3DFBB065665A1 /* HSBCircleProgressObjc */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		40320E2958D5944DD6E99E75A73387D9 /* Pods-HSBCircleProgressObjc_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5D981F4A79D3893A8865BCCA82164E39 /* Info.plist */,
+				42B84A13BDA27208F53597D1E0F6161C /* Pods-HSBCircleProgressObjc_Example.modulemap */,
+				B8F85903291A8C0201D1ED581092692E /* Pods-HSBCircleProgressObjc_Example-acknowledgements.markdown */,
+				3274E1FBC9EBDE3222A0A43E78927115 /* Pods-HSBCircleProgressObjc_Example-acknowledgements.plist */,
+				6F235F97436119F357F496B348957729 /* Pods-HSBCircleProgressObjc_Example-dummy.m */,
+				2C782DB9E12C4807B24B7133CBD3A666 /* Pods-HSBCircleProgressObjc_Example-frameworks.sh */,
+				019C9F601DA963892F9FD7FFA85EE4EF /* Pods-HSBCircleProgressObjc_Example-resources.sh */,
+				51CA192A873F1724B18E4A9E7B93066B /* Pods-HSBCircleProgressObjc_Example-umbrella.h */,
+				8F405F44DDD83643ED4C037387DA4690 /* Pods-HSBCircleProgressObjc_Example.debug.xcconfig */,
+				5B7D7468154498A756361BBFFF9838B9 /* Pods-HSBCircleProgressObjc_Example.release.xcconfig */,
+			);
+			name = "Pods-HSBCircleProgressObjc_Example";
+			path = "Target Support Files/Pods-HSBCircleProgressObjc_Example";
+			sourceTree = "<group>";
+		};
+		7A091DF4804DA228A2F8FF89D7E4C00A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40320E2958D5944DD6E99E75A73387D9 /* Pods-HSBCircleProgressObjc_Example */,
+				C6B766F7C3FA162F4D462F8D50789FFA /* Pods-HSBCircleProgressObjc_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				34200C77E511092FAFE7D97F6EBAE978 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				82FDCF84500FE0CA0B8FAE4F866F8370 /* Products */,
+				7A091DF4804DA228A2F8FF89D7E4C00A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82FDCF84500FE0CA0B8FAE4F866F8370 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A24E89B3B292714EFB366B36C43A221 /* HSBCircleProgressObjc.framework */,
+				DA05E5BDD031F386CB76A2ECE8491D5A /* Pods_HSBCircleProgressObjc_Example.framework */,
+				CFD1BD9DD8BE16BB81A7DA7432170A1B /* Pods_HSBCircleProgressObjc_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6B766F7C3FA162F4D462F8D50789FFA /* Pods-HSBCircleProgressObjc_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5C435783D3E27CCBF3FF613B79D7A9DA /* Info.plist */,
+				0611D0F242D70373699530B473D57A03 /* Pods-HSBCircleProgressObjc_Tests.modulemap */,
+				75566611C906C2416B0DBAA4F2B22B60 /* Pods-HSBCircleProgressObjc_Tests-acknowledgements.markdown */,
+				668F0C7F22F77EF0640D1B5E627ECC79 /* Pods-HSBCircleProgressObjc_Tests-acknowledgements.plist */,
+				ABB69926D6B4CF85EA3116312350CC6D /* Pods-HSBCircleProgressObjc_Tests-dummy.m */,
+				99EC7F96E2325F9F777561121F338446 /* Pods-HSBCircleProgressObjc_Tests-frameworks.sh */,
+				64F4C2F1486D47ED88FE849A8BF989D9 /* Pods-HSBCircleProgressObjc_Tests-resources.sh */,
+				BA134D30788A7E55E1F8BBB7999D77BB /* Pods-HSBCircleProgressObjc_Tests-umbrella.h */,
+				2D6F7D53678647525DE0E20D802D112A /* Pods-HSBCircleProgressObjc_Tests.debug.xcconfig */,
+				B51F8FA1CF7AD0EB550D052A94B26295 /* Pods-HSBCircleProgressObjc_Tests.release.xcconfig */,
+			);
+			name = "Pods-HSBCircleProgressObjc_Tests";
+			path = "Target Support Files/Pods-HSBCircleProgressObjc_Tests";
+			sourceTree = "<group>";
+		};
+		CBF07FC3CB519A15EEE7149E0F61EE9F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8CA2A4A229FA72924817AAFA74100369 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EFE175BC91811F3DD77B08C22AB679AE /* HSBCircleProgressObjc */ = {
+			isa = PBXGroup;
+			children = (
+				CBF07FC3CB519A15EEE7149E0F61EE9F /* Classes */,
+			);
+			name = HSBCircleProgressObjc;
+			path = HSBCircleProgressObjc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		97DD079BA18B43261D28DE3726FD429E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E251329D2677AA8BB2920402C2DF2F5 /* Pods-HSBCircleProgressObjc_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A764A2D66F3D1B5422F202EE9C3747C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08A774E72BFE390E2D5AEFE4A142FA2 /* Pods-HSBCircleProgressObjc_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46EBE4B717DFEFF38FA144BC1F04E9F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48FA55C20CFC0EC2E7BCBDAA81FC7986 /* HSBCircleProgressObjc-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		52C0BEB0FDC697E76D433858751D66D7 /* Pods-HSBCircleProgressObjc_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92A37A0A6395D1C69E16AF96AF3BC1B3 /* Build configuration list for PBXNativeTarget "Pods-HSBCircleProgressObjc_Tests" */;
+			buildPhases = (
+				A9F39C55B173B345A4AFAA8CCDB56A9F /* Sources */,
+				E173DEE221B0F06335B3108C6860EE50 /* Frameworks */,
+				97DD079BA18B43261D28DE3726FD429E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HSBCircleProgressObjc_Tests";
+			productName = "Pods-HSBCircleProgressObjc_Tests";
+			productReference = CFD1BD9DD8BE16BB81A7DA7432170A1B /* Pods_HSBCircleProgressObjc_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF02949DDA996F5E5EC8076132030180 /* HSBCircleProgressObjc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7142FB772C59D1E9214CD4A22915B75F /* Build configuration list for PBXNativeTarget "HSBCircleProgressObjc" */;
+			buildPhases = (
+				A23957CE1D71225B8168F81967C574AE /* Sources */,
+				419592CC54C95C8B88C5A1E635068E38 /* Frameworks */,
+				F46EBE4B717DFEFF38FA144BC1F04E9F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HSBCircleProgressObjc;
+			productName = HSBCircleProgressObjc;
+			productReference = 6A24E89B3B292714EFB366B36C43A221 /* HSBCircleProgressObjc.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C15D90B4B533242EBA23F95459DB6985 /* Pods-HSBCircleProgressObjc_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64EEBD2B7BCC049C01594D6D0C8C003C /* Build configuration list for PBXNativeTarget "Pods-HSBCircleProgressObjc_Example" */;
+			buildPhases = (
+				67D33DA3E71959A7F2D77A02C7D26241 /* Sources */,
+				22531B300AD1DC02BBE28FC4C69DB13D /* Frameworks */,
+				A764A2D66F3D1B5422F202EE9C3747C3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				315D99707F2AEBAC3A03E2CFDC246719 /* PBXTargetDependency */,
+			);
+			name = "Pods-HSBCircleProgressObjc_Example";
+			productName = "Pods-HSBCircleProgressObjc_Example";
+			productReference = DA05E5BDD031F386CB76A2ECE8491D5A /* Pods_HSBCircleProgressObjc_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 82FDCF84500FE0CA0B8FAE4F866F8370 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF02949DDA996F5E5EC8076132030180 /* HSBCircleProgressObjc */,
+				C15D90B4B533242EBA23F95459DB6985 /* Pods-HSBCircleProgressObjc_Example */,
+				52C0BEB0FDC697E76D433858751D66D7 /* Pods-HSBCircleProgressObjc_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67D33DA3E71959A7F2D77A02C7D26241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7931B77F0EDA17FC81E6F2AAB2D1F6D7 /* Pods-HSBCircleProgressObjc_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23957CE1D71225B8168F81967C574AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				569638B7FD1C2A86DC8D0F3852D49581 /* HSBCircleProgressObjc-dummy.m in Sources */,
+				F8DCB553421DBCF2DC7369AAE3E92DF1 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F39C55B173B345A4AFAA8CCDB56A9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F8C9BE5E79339502AE36B1BED932C4C /* Pods-HSBCircleProgressObjc_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		315D99707F2AEBAC3A03E2CFDC246719 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HSBCircleProgressObjc;
+			target = BF02949DDA996F5E5EC8076132030180 /* HSBCircleProgressObjc */;
+			targetProxy = 593DD165C8383444BF0610BD5AB80D8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E42B6F4ED2B2AE17514A0491DA5490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B51F8FA1CF7AD0EB550D052A94B26295 /* Pods-HSBCircleProgressObjc_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HSBCircleProgressObjc_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HSBCircleProgressObjc_Tests/Pods-HSBCircleProgressObjc_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HSBCircleProgressObjc_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3ED59410B327F6832F2DDE5E27BF8904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D6F7D53678647525DE0E20D802D112A /* Pods-HSBCircleProgressObjc_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HSBCircleProgressObjc_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HSBCircleProgressObjc_Tests/Pods-HSBCircleProgressObjc_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HSBCircleProgressObjc_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		681565530A3355B1A0F72BAF20C81BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30AF029737E893FE811520E6B6AAA003 /* HSBCircleProgressObjc.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HSBCircleProgressObjc/HSBCircleProgressObjc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HSBCircleProgressObjc/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HSBCircleProgressObjc/HSBCircleProgressObjc.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HSBCircleProgressObjc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		777656E79BCFFE44EBD8593D5B9905D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7D7468154498A756361BBFFF9838B9 /* Pods-HSBCircleProgressObjc_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HSBCircleProgressObjc_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HSBCircleProgressObjc_Example/Pods-HSBCircleProgressObjc_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HSBCircleProgressObjc_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		991D89F1762B14E137DADE67C5BBD968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F405F44DDD83643ED4C037387DA4690 /* Pods-HSBCircleProgressObjc_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HSBCircleProgressObjc_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HSBCircleProgressObjc_Example/Pods-HSBCircleProgressObjc_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HSBCircleProgressObjc_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C5B6040DFA2F6786A2F2FF1AC2FA31E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30AF029737E893FE811520E6B6AAA003 /* HSBCircleProgressObjc.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HSBCircleProgressObjc/HSBCircleProgressObjc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HSBCircleProgressObjc/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HSBCircleProgressObjc/HSBCircleProgressObjc.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HSBCircleProgressObjc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */,
+				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64EEBD2B7BCC049C01594D6D0C8C003C /* Build configuration list for PBXNativeTarget "Pods-HSBCircleProgressObjc_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991D89F1762B14E137DADE67C5BBD968 /* Debug */,
+				777656E79BCFFE44EBD8593D5B9905D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7142FB772C59D1E9214CD4A22915B75F /* Build configuration list for PBXNativeTarget "HSBCircleProgressObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681565530A3355B1A0F72BAF20C81BB7 /* Debug */,
+				9C5B6040DFA2F6786A2F2FF1AC2FA31E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92A37A0A6395D1C69E16AF96AF3BC1B3 /* Build configuration list for PBXNativeTarget "Pods-HSBCircleProgressObjc_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ED59410B327F6832F2DDE5E27BF8904 /* Debug */,
+				00E42B6F4ED2B2AE17514A0491DA5490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

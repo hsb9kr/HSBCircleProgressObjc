@@ -22,7 +22,7 @@ pod 'HSBCircleProgressObjc'
 
 ## Author
 
-Red, hsb9kr@gmail.com
+Hong Sangbo, hsb9kr@gmail.com
 
 ## License
 
